@@ -1,0 +1,43 @@
+/* 
+Theme name = theme scratch
+Author = John
+Description = mon theme scratch
+Version = 1.0
+Text Domain = themescratch
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Licorice&family=Rowdies:wght@300&display=swap");
+
+body {
+  background-color: red;
+  font-family: "Rowdies", cursive;
+}
+
+.bleu {
+  background: rgb(96, 96, 199);
+  min-height: 80px;
+}
+
+.violet {
+  background: purple;
+  min-height: 80px;
+}
+
+.vert {
+  background-color: green;
+  min-height: 80px;
+}
+
+.orange {
+  background: orange;
+  min-height: 80px;
+}
+
+.magenta {
+  background: magenta;
+  min-height: 80px;
+}
+
+main {
+  min-height: 600px;
+}
