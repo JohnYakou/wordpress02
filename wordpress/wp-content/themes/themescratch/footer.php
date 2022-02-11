@@ -1,5 +1,6 @@
     </main>
     
+    <!-- Va permettre d'activer la barre -->
     <?php wp_footer() ?>
 
     <footer class="container-fluid">

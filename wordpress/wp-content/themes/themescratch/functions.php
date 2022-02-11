@@ -4,9 +4,13 @@
 // A cette fonction widgets_init, je lui donne un nom personnalisé 'themescratch_init_sidebar
 add_action('widgets_init', 'themescratch_init_sidebar');
 
+// j'utilise ma fonction pour créer mes widgets
 function themescratch_init_sidebar(){
+    // declaration de ma page premiere zone/widgets, celle en haut à gauche
     register_sidebar( array(
+        // Son nom, pour le retrouver le back-office de WP
         'name' => __('haut gauche', 'themescratch'),
+        // son id que je devrai recevoir
         'id' => __('haut-gauche'),
         'description' => __('Zone en haut à gauche', 'themescratch')
         )

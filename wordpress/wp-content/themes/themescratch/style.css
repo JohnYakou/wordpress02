@@ -11,7 +11,55 @@ Text Domain = themescratch
 body {
   background-color: red;
   font-family: "Rowdies", cursive;
+  overflow-x: hidden;
 }
+
+/* DEBUT HEADER */
+
+.mon-logo {
+  float: left;
+  padding-top: 0.5rem;
+}
+
+.mon-slogan {
+  float: left;
+  margin-left: 5%;
+  margin-top: 2.5rem;
+}
+
+.mon-slogan a {
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+li.widget {
+  list-style: none;
+}
+/* FIN DE HEADER GAUCHE */
+
+/* DEBUT HEADER DROIT */
+.phone-block {
+  text-align: right;
+  margin-top: 2.5rem;
+}
+
+.phone {
+  margin-right: 0.5rem;
+  margin-top: 0.2rem;
+}
+
+/* FIN HEADER DROIT */
+
+/* ENTETE */
+.image-entete {
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+/* FIN HEADER */
 
 .bleu {
   background: rgb(96, 96, 199);
@@ -37,6 +85,7 @@ body {
   background: magenta;
   min-height: 80px;
 }
+/* FIN DU ZONING */
 
 main {
   min-height: 600px;

@@ -32,6 +32,7 @@
     <!-- Nos deux zones/widgets au-dessus de la nav -->
     <div class="row">
         <!-- Celle de la gauche -->
+        <!-- dynamic_sidebar() permet d'activer l'emplacement du widget -->
         <div class="bleu col-6"><?php dynamic_sidebar('haut-gauche') ?></div>
         <!-- Celle de la droite -->
         <div class="violet col-6"><?php dynamic_sidebar('haut-droit') ?></div>
